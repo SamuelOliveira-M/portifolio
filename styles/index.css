@@ -32,7 +32,10 @@
   font-family: "Epilogue", sans-serif;
   text-decoration: none;
 }
-
+.margem{
+  padding-right: 30px;
+  text-align: justify;
+}
 p,
 h1,
 h2,
@@ -180,8 +183,8 @@ header .switch {
   gap: 5%;
 }
 #home .container-home .image-home {
-  width: min(80%, 500px);
-  width: min(50%, 300px);
+  width: min(80%, 600px);
+  border-radius: 10px;
 
 }
 #home article {
