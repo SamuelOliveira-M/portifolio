@@ -721,6 +721,24 @@ footer .development {
   font-style: italic;
 }
 
+#particles-js {
+  width: min(80%, 600px);
+  border-radius: 10px;
+}
+
+/* Garante que o canvas gerado ocupe todo o container */
+.particles-js-canvas-el {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Seu conteúdo deve ter z-index maior para ficar na frente */
+.seu-conteudo {
+  position: relative;
+  z-index: 1;
+}
+
 @keyframes shake-animation {
   0%, 100% {
     transform: translateX(0);
@@ -797,6 +815,9 @@ footer .development {
   }
 }
 @media screen and (max-width: 1050px) {
+  .particles-js-canvas-el{
+    display: none;
+  }
   nav a {
     color: #060A2F;
   }
