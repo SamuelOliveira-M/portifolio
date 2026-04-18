@@ -244,6 +244,10 @@ header .switch {
   color: var(--red);
 }
 
+.cotainer-discription-projetct{
+  margin: 15px;
+}
+
 .dark-modes .main-container h1 {
   color: pink;
 }
